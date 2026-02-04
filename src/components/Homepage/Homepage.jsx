@@ -24,33 +24,33 @@ const Homepage = () => {
           
           {/* Slides */}
           <div className="carousel-inner">
-            {/* Slide 1 - Your original property */}
+            {/* Slide 1 - Elegant Jewelry Collection */}
             <div className="carousel-item active">
               <div className="hero-content">
-                <h2>Find Your Perfect Home</h2>
-                <p>204 Olive Road, Doral FL</p>
-                <p className="price">$12,000/mo</p>
-                <Link className="cta-button">Schedule Viewing</Link>
+                <h2>Discover Timeless Elegance</h2>
+                <p>Premium Diamond & Gold Collection</p>
+                <p className="price">Starting from $299</p>
+                <Link to="/properties" className="cta-button">Shop Now</Link>
               </div>
             </div>
-            
-            {/* Slide 2 - Additional property */}
+
+            {/* Slide 2 - Luxury Pieces */}
             <div className="carousel-item">
               <div className="hero-content">
-                <h2>Luxury Waterfront Condo</h2>
-                <p>305 Biscayne Blvd, Miami FL</p>
-                <p className="price">$15,500/mo</p>
-                <Link className="cta-button">Schedule Viewing</Link>
+                <h2>Luxury Handcrafted Jewelry</h2>
+                <p>Exquisite Designer Pieces</p>
+                <p className="price">Starting from $499</p>
+                <Link to="/properties" className="cta-button">Explore Collection</Link>
               </div>
             </div>
-            
-            {/* Slide 3 - Additional property */}
+
+            {/* Slide 3 - Wedding Collection */}
             <div className="carousel-item">
               <div className="hero-content">
-                <h2>Modern Downtown Apartment</h2>
-                <p>122 Brickell Ave, Miami FL</p>
-                <p className="price">$9,800/mo</p>
-                <Link className="cta-button">Schedule Viewing</Link>
+                <h2>Perfect Wedding Rings</h2>
+                <p>Celebrate Your Special Moments</p>
+                <p className="price">Starting from $799</p>
+                <Link to="/properties" className="cta-button">View Collection</Link>
               </div>
             </div>
           </div>
@@ -68,101 +68,101 @@ const Homepage = () => {
       </section>
       
 
-      {/* Services Section - Simplified to 3 core services */}
+      {/* Services Section */}
       <section id="services" className="services">
         <div className="container">
-          <h2 className="section-title">Our Services</h2>
-          <p className="section-subtitle">Expert real estate solutions tailored to your needs</p>
-          
+          <h2 className="section-title">Why Choose Us</h2>
+          <p className="section-subtitle">Premium jewelry with exceptional service</p>
+
           <div className="services-grid">
             <div className="service-card">
-              <div className="service-icon">🏠</div>
-              <h3>Property Sales</h3>
-              <p>Find your dream home with our expert guidance and extensive listings.</p>
+              <div className="service-icon">💎</div>
+              <h3>Certified Quality</h3>
+              <p>All our jewelry pieces come with authenticity certificates and quality guarantees.</p>
             </div>
-            
+
             <div className="service-card">
-              <div className="service-icon">💰</div>
-              <h3>Rental Management</h3>
-              <p>Stress-free rental solutions for both property owners and tenants.</p>
+              <div className="service-icon">✨</div>
+              <h3>Custom Design</h3>
+              <p>Create your dream piece with our expert craftsmen and designers.</p>
             </div>
-            
+
             <div className="service-card">
-              <div className="service-icon">📈</div>
-              <h3>Investment Advice</h3>
-              <p>Maximize your returns with our market insights and strategies.</p>
+              <div className="service-icon">🚚</div>
+              <h3>Free Shipping</h3>
+              <p>Enjoy free worldwide shipping on all orders with secure packaging.</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Agents Section - Simplified layout */}
+      {/* Team Section */}
       <section id="agents" className="agents">
         <div className="container">
-          <h2 className="section-title">Meet Our Agents</h2>
-          <p className="section-subtitle">Professional, knowledgeable, and dedicated to your needs</p>
-          
+          <h2 className="section-title">Meet Our Experts</h2>
+          <p className="section-subtitle">Passionate craftsmen and designers at your service</p>
+
           <div className="agents-grid">
             <div className="agent-card">
-              <img src="assets/img/team/team-1.jpg" alt="Walter White" />
-              <h3>Walter White</h3>
-              <p>CEO & Founder</p>
+              <img src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Master Jeweler" />
+              <h3>Elena Rodriguez</h3>
+              <p>Master Jeweler</p>
               <div className="social-links">
-                <Link ><i className="bi bi-linkedin"></i></Link>
-                <Link ><i className="bi bi-envelope"></i></Link>
+                <Link><i className="bi bi-linkedin"></i></Link>
+                <Link><i className="bi bi-envelope"></i></Link>
               </div>
             </div>
-            
+
             <div className="agent-card">
-              <img src="assets/img/team/team-2.jpg" alt="Sarah Jhonson" />
-              <h3>Sarah Jhonson</h3>
-              <p>Rent Manager</p>
+              <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Chief Designer" />
+              <h3>Michael Chen</h3>
+              <p>Chief Designer</p>
               <div className="social-links">
-                <Link ><i className="bi bi-linkedin"></i></Link>
-                <Link ><i className="bi bi-envelope"></i></Link>
+                <Link><i className="bi bi-linkedin"></i></Link>
+                <Link><i className="bi bi-envelope"></i></Link>
               </div>
             </div>
-            
+
             <div className="agent-card">
-              <img src="assets/img/team/team-3.jpg" alt="William Anderson" />
-              <h3>William Anderson</h3>
-              <p>Sales Director</p>
+              <img src="https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Gemologist" />
+              <h3>Sarah Williams</h3>
+              <p>Certified Gemologist</p>
               <div className="social-links">
-                <Link ><i className="bi bi-linkedin"></i></Link>
-                <Link ><i className="bi bi-envelope"></i></Link>
+                <Link><i className="bi bi-linkedin"></i></Link>
+                <Link><i className="bi bi-envelope"></i></Link>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Testimonials - Simplified to 3 key testimonials */}
+      {/* Testimonials */}
       <section id="testimonials" className="testimonials">
         <div className="container">
-          <h2 className="section-title">Client Testimonials</h2>
-          <p className="section-subtitle">What our clients say about us</p>
-          
+          <h2 className="section-title">Customer Reviews</h2>
+          <p className="section-subtitle">What our happy customers say</p>
+
           <div className="testimonials-grid">
             <div className="testimonial-card">
               <div className="rating">★★★★★</div>
-              <p>"Found my dream home in just two weeks! The team was incredibly professional and attentive to my needs."</p>
+              <p>"Absolutely stunning engagement ring! The quality is exceptional and the customer service was outstanding. My fiance loves it!"</p>
               <div className="client-info">
-                <img src="assets/img/testimonials/testimonials-1.jpg" alt="Saul Goodman" />
+                <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Happy Customer" />
                 <div>
-                  <h4>Saul Goodman</h4>
-                  <p>Homeowner</p>
+                  <h4>James Anderson</h4>
+                  <p>Verified Buyer</p>
                 </div>
               </div>
             </div>
-            
+
             <div className="testimonial-card">
               <div className="rating">★★★★★</div>
-              <p>"As a first-time buyer, I appreciated their patience and clear explanations throughout the process."</p>
+              <p>"Best jewelry shopping experience! The custom design service helped me create a unique necklace that exceeded my expectations."</p>
               <div className="client-info">
-                <img src="assets/img/testimonials/testimonials-2.jpg" alt="Sara Wilsson" />
+                <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Happy Customer" />
                 <div>
-                  <h4>Sara Wilsson</h4>
-                  <p>First-time Buyer</p>
+                  <h4>Emma Thompson</h4>
+                  <p>Verified Buyer</p>
                 </div>
               </div>
             </div>
@@ -170,31 +170,31 @@ const Homepage = () => {
         </div>
       </section>
 
-      {/* Simplified Footer */}
+      {/* Footer */}
       <footer id="footer" className="footer">
         <div className="container">
           <div className="footer-content">
             <div className="footer-section">
-              <h3>EstateHub</h3>
-              <p>Your trusted partner in real estate since 2010.</p>
+              <h3>ShopJewels</h3>
+              <p>Your trusted jewelry destination since 2015.</p>
             </div>
-            
+
             <div className="footer-section">
               <h4>Contact</h4>
-              <p>info@estatehub.com</p>
-              <p>+1 (555) 123-4567</p>
+              <p>info@shopjewels.com</p>
+              <p>+254 721 799055</p>
             </div>
-            
+
             <div className="footer-section">
               <h4>Quick Links</h4>
-              <Link>Services</Link>
-              <Link>Agents</Link>
-              <Link>Testimonials</Link>
+              <Link>About Us</Link>
+              <Link>Collections</Link>
+              <Link>Custom Design</Link>
             </div>
           </div>
-          
+
           <div className="footer-bottom">
-            <p>© {new Date().getFullYear()} EstateHub. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} ShopJewels. All rights reserved.</p>
           </div>
         </div>
       </footer>

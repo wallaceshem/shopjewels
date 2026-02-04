@@ -41,7 +41,7 @@ const Navbar = () => {
       <div className="container">
         {/* Brand/Logo - Bigger and emphasized */}
         <Link to="/" className="navbar-brand fw-bold">
-          <span className="text-warning">Golden</span>Homes
+          <span className="text-warning">Shop</span>Jewels
         </Link>
         
         {/* Hamburger Button */}
@@ -68,7 +68,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item px-2">
               <Link to="/properties" className="nav-link">
-                Properties
+                Jewelry
                 <div className="nav-underline"></div>
               </Link>
             </li>

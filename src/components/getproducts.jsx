@@ -52,13 +52,13 @@ const Getproducts = () => {
           <Carousel/>
         </div>
 
-        <h1 className="mt-3 text-info fw-bold display-5 ">Available Properties</h1>
+        <h1 className="mt-3 text-info fw-bold display-5 ">Available Jewelry</h1>
 
         <div className="row justify-content-center mt-3 mb-3">
           <input
             className="form-control w-50"
             type="search"
-            placeholder="Search Properties..."
+            placeholder="Search Jewelry..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
           />

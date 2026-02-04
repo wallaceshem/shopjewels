@@ -131,17 +131,17 @@
     background-position: center;
   }
   
-  /* Individual slide backgrounds */
+  /* Individual slide backgrounds - Jewelry themed */
   .carousel-item:nth-child(1) {
-    background-image: url('../../assets/images/new1.webp');
+    background-image: url('https://images.pexels.com/photos/1232931/pexels-photo-1232931.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
   }
-  
+
   .carousel-item:nth-child(2) {
-    background-image: url('../../assets/images/new2.jpg');
+    background-image: url('https://images.pexels.com/photos/265906/pexels-photo-265906.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
   }
-  
+
   .carousel-item:nth-child(3) {
-    background-image: url('../../assets/images/new1.webp');
+    background-image: url('https://images.pexels.com/photos/1454172/pexels-photo-1454172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
   }
 
   
